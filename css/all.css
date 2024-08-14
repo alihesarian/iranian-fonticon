@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'iran-icon-font';
+    font-style: normal;
+    /*font-weight: 900;*/
+    font-display: block;
+    src:  url("../webfonts/iran-icon-font.ttf") format("truetype"); 
+}
+.iran-icon{
+    font-family: 'iran-icon-font';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto; 
+}
+.if-robika::before{content:"\E000";}
+.if-robika-alt::before{content:"\E001";}
+.if-bale::before{content:"\E002";}
+.if-bale-alt::before{content:"\E003";}
+.if-eitaa::before{content:"\E004";}
+.if-aparat::before{content:"\E005";}
+.if-aparat-alt::before{content:"\E006";}
+.if-basalam::before{content:"\E007";}
+.if-basalam-alt::before{content:"\E008";}
+.if-bluebank::before{content:"\E009";}
+.if-mellibank::before{content:"\E00A";}
+.if-mellibank-alt::before{content:"\E00B";}
+.if-mellatbank::before{content:"\E00C";}
+.if-mellatbank-alt::before{content:"\E00D";}
+.if-esam::before{content:"\E00E";}
+.if-gap::before{content:"\E00F";}
+.if-post::before{content:"\E010";}
+.if-torob::before{content:"\E011";}
+.if-divar::before{content:"\E012";}
+.if-tipax::before{content:"\E013";}
+.if-tipax-alt::before{content:"\E014";}
+.if-tapsi::before{content:"\E016";}
+.if-tapsi-alt::before{content:"\E015";}
+.if-alopeyk::before{content:"\E017";}
+.if-alopeyk-alt::before{content:"\E018";}
+.if-snapp::before{content:"\E019";}
+.if-snapp-alt::before{content:"\E01A";}
